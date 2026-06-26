@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SportZone - DecodeLabs Internship</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; text-align: center; 
+           padding: 50px 20px; background: #0d1117; color: white; 
+           min-height: 100vh; }
+    h1 { color: #58a6ff; font-size: 2.5rem; margin-bottom: 10px; }
+    .subtitle { color: #8b949e; margin-bottom: 50px; font-size: 1rem; }
+    .cards { display: flex; justify-content: center; 
+             gap: 25px; flex-wrap: wrap; }
+    .card { background: #161b22; border: 1px solid #30363d; 
+            border-radius: 12px; padding: 35px 25px; width: 220px;
+            transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); border-color: #58a6ff; }
+    .card h3 { color: #58a6ff; font-size: 1.3rem; margin-bottom: 10px; }
+    .card p { font-size: 13px; color: #8b949e; margin-bottom: 20px; }
+    .card a { display: inline-block; padding: 10px 25px; 
+              background: #238636; color: white; border-radius: 6px; 
+              text-decoration: none; font-weight: bold; }
+    .card a:hover { background: #2ea043; }
+    .badge { display: inline-block; padding: 3px 10px; border-radius: 20px;
+             font-size: 11px; margin-bottom: 12px; }
+    .beginner { background: #1f4b2e; color: #3fb950; }
+    .intermediate { background: #3d2b00; color: #d29922; }
+    .advanced { background: #3d1f1f; color: #f85149; }
+  </style>
+</head>
+<body>
+  <h1>⚽ SportZone</h1>
+  <p class="subtitle">DecodeLabs Frontend Internship 2026 — by Upendra</p>
+
+  <div class="cards">
+    <div class="card">
+      <span class="badge beginner">Beginner</span>
+      <h3>Task 1</h3>
+      <p>Basic Sports Website — HTML & CSS Fundamentals</p>
+      <a href="./DECODELAB-TASKS/task-1-upendra/">Open →</a>
+    </div>
+    <div class="card">
+      <span class="badge intermediate">Intermediate</span>
+      <h3>Task 2</h3>
+      <p>Enhanced Website — Responsive Design & Advanced CSS</p>
+      <a href="./DECODELAB-TASKS/task-2-upendra/">Open →</a>
+    </div>
+    <div class="card">
+      <span class="badge advanced">Advanced</span>
+      <h3>Task 3</h3>
+      <p>Interactive Website — JavaScript, Dark Mode & Quiz</p>
+      <a href="./DECODELAB-TASKS/task-3-upendra/">Open →</a>
+    </div>
+  </div>
+</body>
+</html>
